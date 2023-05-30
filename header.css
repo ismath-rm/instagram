@@ -1,0 +1,85 @@
+header{
+  background-color:rgb(255, 255, 255);
+display: flex;
+justify-content: space-between;
+align-items: center;   
+padding: 10px 18%;
+border-bottom: 1px solid rgba(219, 219, 219, 1);
+position: sticky;
+top: 0; 
+z-index: 10;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+}
+
+#insta-icon{
+  width: 105px;
+  object-fit: contain;
+}
+
+#search-icon{
+  width: 35px;
+  object-fit: cover;
+  padding-top: 10px;
+  padding-left: 22px;
+  opacity: 0.5;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header .logo{
+  height: 29px;
+  cursor: pointer;
+}
+
+header .search-box{
+  width: 250px;
+  background-color: rgba(239,239, 239, 1);
+  align-items: center;
+  border-radius: 6px;
+}
+
+header .search-box input{
+  border: none;
+  outline: none;
+  background-color: rgba(239,239, 239, 1);
+  font-size: 14px;
+  color: #8e8e8e;
+  padding-left: 10px;
+  margin-bottom: 8px;
+}
+
+header nav ul{
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li{
+  margin-right: 20px;
+  cursor: pointer;
+
+}
+
+header nav ul li:last-child{
+  margin-right: 0;
+}
+
+header nav ul li a img{
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+header nav ul li a {
+  font-size: 22px;
+  color: rgba(38, 38, 38, 1);
+}
+
+header nav ul li{
+  font-size: 22px;
+  color: rgba(38, 38, 38, 1);
+}
